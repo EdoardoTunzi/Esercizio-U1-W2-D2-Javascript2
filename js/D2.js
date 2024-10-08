@@ -3,13 +3,24 @@
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const num1 = 50;
+const num2 = 105;
 
+if (num1 > num2) {
+  console.log("num1", num1, "è più grande di num2", num2);
+} else {
+  console.log("num2", num2, "è più grande di num1", num1);
+}
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+if (num1 !== 5) {
+  console.log("not equal");
+} else {
+  console.log("is equal");
+}
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
 */
