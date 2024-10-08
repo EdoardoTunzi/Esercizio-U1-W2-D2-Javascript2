@@ -80,12 +80,41 @@ if (totalShoppingCart >= 50) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const var1 = 3;
+const var2 = 8;
+const var3 = 12;
 
+if (var1 >= var2 && var1 >= var3) {
+  if (var2 >= var3) {
+    console.log("1:", var1, "2:", var2, "3:", var3);
+  } else {
+    console.log("1:", var1, "2:", var3, "3:", var2);
+  }
+} else if (var2 >= var1 && var2 >= var3) {
+  if (var1 >= var3) {
+    console.log("1:", var2, "2:", var1, "3:", var3);
+  } else {
+    console.log("1:", var2, "2:", var3, "3:", var1);
+  }
+} else {
+  if (var1 >= var2) {
+    console.log("1:", var3, "2:", var1, "3:", var2);
+  } else {
+    console.log("1:", var3, "2:", var2, "3:", var1);
+  }
+}
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const var5 = 14;
+
+if (typeof var5 === "number") {
+  console.log("La variabile è un", typeof var5);
+} else {
+  console.log("la variabile non è un number");
+}
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
