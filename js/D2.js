@@ -199,8 +199,8 @@ console.log(me.lastName);
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 console.log(me.skills);
-me.skills.pop; // CHIEDI PERCHè NON FUNZIONA
-delete me.skills[2];
+me.skills.pop();
+// oppure -->  delete me.skills[2];
 console.log(me.skills);
 
 /* ESERCIZIO 14
