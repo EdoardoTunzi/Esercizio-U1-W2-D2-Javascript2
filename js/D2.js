@@ -26,12 +26,26 @@ if (num1 !== 5) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-
+if (num1 % 5 === 0) {
+  console.log("divisibile per 5");
+} else {
+  console.log("non divisibile per 5");
+}
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const num3 = 3;
+const num4 = 5;
+
+if (num3 === 8 || num4 === 8) {
+  console.log("uno dei due valori è uguale a 8");
+} else if (num3 + num4 === 8 || num3 - num4 === 8 || num4 - num3 === 8) {
+  console.log("la somma o la sottrazione tra i due numeri è uguale a 8");
+} else {
+  console.log("nessuna condizione soddisfa la richiesta");
+}
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
