@@ -54,6 +54,17 @@ if (num3 === 8 || num4 === 8) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+let totalShoppingCart = 50;
+if (totalShoppingCart >= 50) {
+  //ho inserito maggiore o uguale solo per comodità e per seguire la logica del flow. altrimenti inserire 50 darebbe un console.log inappropriato//
+  console.log("Hai diritto alla spedizione gratuita");
+} else {
+  totalShoppingCart += 10;
+  console.log(
+    "Il tuo carrello ha un valore inferiore a 50 euro, sono stati aggiunti 10 euro di costi di spedizione al totale, per un valore di",
+    totalShoppingCart
+  );
+}
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
