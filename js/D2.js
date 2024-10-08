@@ -54,7 +54,10 @@ if (num3 === 8 || num4 === 8) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-let totalShoppingCart = 50;
+
+/* ---- TOGLI QUESTO COMMENTO PER PROVARE IL CODICE SINGOLO
+let totalShoppingCart = 70;
+
 if (totalShoppingCart >= 50) {
   //ho inserito maggiore o uguale solo per comodità e per seguire la logica del flow. altrimenti inserire 50 darebbe un console.log inappropriato//
   console.log("Hai diritto alla spedizione gratuita");
@@ -72,6 +75,24 @@ if (totalShoppingCart >= 50) {
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
+const isBlackFriday = true;
+let totalShoppingCart = 70;
+
+if (isBlackFriday) {
+  const discount = (totalShoppingCart * 20) / 100;
+  totalShoppingCart -= discount;
+}
+console.log(" il valore del carrello dopo lo sconto è", totalShoppingCart);
+if (totalShoppingCart >= 50) {
+  //ho inserito maggiore o uguale solo per comodità e per seguire la logica del flow. altrimenti inserire 50 darebbe un console.log inappropriato//
+  console.log("Hai diritto alla spedizione gratuita");
+} else {
+  totalShoppingCart += 10;
+  console.log(
+    "Il tuo carrello ha un valore inferiore a 50 euro, sono stati aggiunti 10 euro di costi di spedizione al totale, per un valore di",
+    totalShoppingCart
+  );
+}
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
